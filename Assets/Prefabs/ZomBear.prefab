@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 790838520}
   - component: {fileID: 790838519}
   m_Layer: 10
-  m_Name: ZomBear 1
+  m_Name: ZomBear
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -137,8 +137,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e15099f5ee559584089d5851df572def, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackDamage: 15
   timeBetweenAttacks: 0.5
-  attackDamage: 10
 --- !u!114 &790838521
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,7 +155,7 @@ MonoBehaviour:
   currentHealth: 0
   sinkSpeed: 2.5
   scoreValue: 10
-  deathClip: {fileID: 0}
+  deathClip: {fileID: 8300000, guid: 62366b8d2c37a49dca550841c741317f, type: 3}
 --- !u!114 &790838520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -179,7 +179,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 1d4840678e677424b8921716c72397ea, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

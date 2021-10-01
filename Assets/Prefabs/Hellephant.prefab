@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 1045879986}
   - component: {fileID: 1045879985}
   m_Layer: 10
-  m_Name: Hellephant 1
+  m_Name: Hellephant
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -88,7 +88,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: fce027b40770a44298a6f5a4233bfb04, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -246,10 +246,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9b9d14572410594cb85d40eedfb150c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 100
+  startingHealth: 300
   currentHealth: 0
   sinkSpeed: 2.5
-  scoreValue: 10
+  scoreValue: 50
   deathClip: {fileID: 8300000, guid: 8c615fd0429f34edf85539d70279360d, type: 3}
 --- !u!114 &1045879985
 MonoBehaviour:
@@ -263,8 +263,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e15099f5ee559584089d5851df572def, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackDamage: 30
   timeBetweenAttacks: 0.5
-  attackDamage: 10
 --- !u!1 &1768875857
 GameObject:
   m_ObjectHideFlags: 0
